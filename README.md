@@ -11,9 +11,9 @@ Then clone an empty repo to ``repo``:
 ```
 git clone git@github.com:you/somename.git repo
 ```
-Next run ``doit.sh`` to generate the commits.
+Next run ``doit.sh`` to generate the commits, It will prompt you for the end date of the art (In ISO date format).
 
-Finaly ``cd`` into repo and ``git push``. enjoy!
+Finaly ``cd`` into repo and ``git push --force``. enjoy!
 
 ## Tips:
 

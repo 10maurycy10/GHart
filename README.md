@@ -2,6 +2,8 @@
 
 A few scripts to draw art to you commit graph on github.
 
+!["LOOK I HAVE TEXT" drawn on GH contibutions graph](art.png)
+
 # Running:
 
 The art to draw is defined in ``gendates.py``, you likley want to edit it.

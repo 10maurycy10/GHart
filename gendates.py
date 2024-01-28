@@ -41,7 +41,7 @@ for row in range(weeks):
         if message[col][row] != " ":
             # calculate the date with the correct week.
             delta_weeks = row - weeks
-            weekdate = end_date - datetime.timedelta(days=delta_weeks * -7)
+            weekdate = end_date - datetime.timedelta(days=delta_weeks * 7)
             # calculate an ofset from that date with the correct weekday
             day_of_week = col
             delta_day =  day_of_week - weekdate.weekday();

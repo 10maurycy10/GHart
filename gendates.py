@@ -2,13 +2,13 @@
 import datetime
 
 message = [
-    "   A    A   ",
-    "  A3AAAA3A  ",
-    "33A333333A33",
-    "  A3A33A3A  ",
-    "33A33AA33A33",
-    "  A333333A  ",
-    "   AAAAAA   "
+    "A     A AAAAA    A   AAA AAA AAA",
+    "AA    A A   A    A    A  A   A  ",
+    "A A   A A   A    A    A  A   A  ",
+    "A  A  A A   A    A    A  AAA AAA",
+    "A   A A A   A    A    A  A   A  ",
+    "A    AA A   A    A    A  A   A  ",
+    "A     A AAAAA    AAA AAA A   AAA"
 ]
 
 if len(message) != 7:
@@ -41,7 +41,7 @@ for row in range(weeks):
         if message[col][row] != " ":
             # calculate the date with the correct week.
             delta_weeks = row - weeks
-            weekdate = end_date - datetime.timedelta(days=delta_weeks * 7)
+            weekdate = end_date - datetime.timedelta(days=delta_weeks * -7)
             # calculate an ofset from that date with the correct weekday
             day_of_week = col
             delta_day =  day_of_week - weekdate.weekday();

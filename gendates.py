@@ -2,13 +2,13 @@
 import datetime
 
 message = [
-    "A     A AAAAA    A   AAA AAA AAA",
-    "AA    A A   A    A    A  A   A  ",
-    "A A   A A   A    A    A  A   A  ",
-    "A  A  A A   A    A    A  AAA AAA",
-    "A   A A A   A    A    A  A   A  ",
-    "A    AA A   A    A    A  A   A  ",
-    "A     A AAAAA    AAA AAA A   AAA"
+    "   A    A   ",
+    "  A3AAAA3A  ",
+    "33A333333A33",
+    "  A3A33A3A  ",
+    "33A33AA33A33",
+    "  A333333A  ",
+    "   AAAAAA   "
 ]
 
 if len(message) != 7:
